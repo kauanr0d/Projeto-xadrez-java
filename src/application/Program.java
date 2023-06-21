@@ -9,5 +9,6 @@ public class Program {
         Tabuleiro t = new Tabuleiro(8,8);
         PartidaDeXadrez px1 = new PartidaDeXadrez();
         UI.imprimirTabuleiro(px1.getPecas());
+        System.out.println("oi");
     }
 }
