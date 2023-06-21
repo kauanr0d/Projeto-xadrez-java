@@ -13,12 +13,12 @@ public class UI {
         }
         System.out.println("  a b c d e f g h");
     }
-    private static void imprimirPeca(PecaDeXadrez peca){
-        if(peca==null){
-            System.out.println("-");
-        }else{
-            System.out.println(peca);
+
+    private static void imprimirPeca(PecaDeXadrez peca) {
+        if (peca == null) {
+            System.out.print("- ");
+        } else {
+            System.out.print(peca + " ");
         }
-        System.out.println(" ");
     }
 }
